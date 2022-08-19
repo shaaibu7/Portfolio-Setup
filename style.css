@@ -1,8 +1,9 @@
 /* stylelint-disable -- giving errors in font style */
-body {
+section {
   background-image: url("images/Header-bg.png");
   background-repeat: no-repeat;
   position: absolute;
+	border-bottom-left-radius: 50px;
 }
 
 a {
@@ -10,16 +11,10 @@ a {
   text-decoration: none;
 }
 
-nav ul{
+nav {
   display: flex;
   flex-direction: row;
   flex-flow: row-reverse;
-  align-items: flex-end;
-  gap: 20px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 1000;
-  font-size: 15px;
 }
 
 li {
@@ -42,7 +37,12 @@ h3 {
 }
 
 .logo {
-  padding: 10px;
+  font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	color: #6070FF;
 }
 
 h1 {
@@ -58,9 +58,10 @@ h1 {
 p {
   font: 'Poppins';
   font-weight: 600;
-  size: 20px;
+  font-size: 20px;
   line-height: 28px;
   margin-left: 40px;
+  color: #344563;
 }
 
 a:hover {
