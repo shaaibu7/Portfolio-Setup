@@ -12,12 +12,21 @@ a {
 }
 
 h2{
-  float: left;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #091e42;
+  margin-left: 40px;
+  letter-spacing: 0.37px;
+
 }
 
-.image{
+nav > img{
   float: right;
-  margin-top: 13px;
+  display: inline;
+  margin-top: -25px;
 }
 
 li {
@@ -39,23 +48,15 @@ h3 {
   color: #7f8cff;
 }
 
-.logo {
+h1 {
   font-family: 'Poppins';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 18px;
-	line-height: 20px;
 	color: #6070FF;
-}
-
-h1 {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
-  color: #091e42;
+  line-height: 20px;
   margin-left: 40px;
+  display: inline;
 }
 
 p {
@@ -77,4 +78,8 @@ a:enabled {
 
 section {
   margin-top: 100px;
+}
+
+.head{
+  margin-top: 30px;
 }
