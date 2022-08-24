@@ -116,6 +116,16 @@ section {
   padding: 20px;
 }
 
+.complete{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091E42;
+  padding-top: 142px;
+}
+
 .line{
   display: flex;
   flex-wrap: wrap;
