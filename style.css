@@ -2,6 +2,7 @@
 body{
   background-color: whitesmoke;
   margin-bottom: 60px;
+  background: #E5E5E5;
 }
 
 section {
@@ -92,12 +93,18 @@ section {
 .middle{
   display: grid;
   grid-gap: 80px;
-  margin-top: 800px;
+  margin-top: 1000px;
   margin-left: 40px;
 }
 
 .intro{
-  padding-top: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
+  margin-top: -100px;
 }
 
 .container{
@@ -118,6 +125,7 @@ section {
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
+  gap: 0px;
 }
 
 .item{
@@ -136,6 +144,10 @@ section {
 
 }
 
+.item4{
+  margin-left: -35px;
+}
+
 .card{
   margin-left: -40px;
 }
@@ -150,7 +162,7 @@ section {
 }
 
 .item5{
-  margin-left: -1px;
+  margin-left: -55px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -159,8 +171,12 @@ section {
   margin-top: 1px;
 }
 
+.item6{
+  margin-left: -35px;
+}
+
 .item7{
-  margin-left: -1px;
+  margin-left: -60px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -213,16 +229,39 @@ button{
   color: #396DF2;
 }
 
+button:hover{
+  background: #4053FC;
+  color: white;
+}
+
+button:disabled{
+  border: 1px solid black;
+}
+
 p{
-  font-weight: bold;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+
 }
 
 .about{
-  margin-top: 3400px;
+  margin-top: 3800px;
   margin-left: 40px;
-  border-radius: 20px;
+  border-top-right-radius: 60px;
   background-color: white;
   width: 350px;
+}
+
+.tag{
+  padding-right: 15px;
+}
+
+.intro{
+  padding-top: 142px;
 }
 
 .lang{
@@ -238,6 +277,7 @@ p{
 .arrow{
   display: flex;
   justify-content: space-between;
+  padding-top: 35px;
 }
 
 .arrow-image{
