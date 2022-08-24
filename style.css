@@ -92,8 +92,12 @@ section {
 .middle{
   display: grid;
   grid-gap: 80px;
-  margin-top: 700px;
+  margin-top: 800px;
   margin-left: 40px;
+}
+
+.intro{
+  padding-top: 30px;
 }
 
 .container{
@@ -259,6 +263,7 @@ p{
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+  margin-left: -30px;
 }
 
 .others{
