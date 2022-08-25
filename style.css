@@ -1,8 +1,7 @@
 /* stylelint-disable -- giving errors in font style */
 body{
-  background-color: whitesmoke;
+  background-color: #E5E5E5;
   margin-bottom: 60px;
-  background: #E5E5E5;
 }
 
 section {
@@ -41,7 +40,12 @@ li {
 
 .connect {
   display: flex;
-  gap: 15px;
+  gap: 25px;
+  margin-left: 40px;
+}
+
+.tag{
+  padding-left: 40px;
 }
 
 h3 {
@@ -114,6 +118,7 @@ section {
   border-radius: 15px;
   background-color: white;
   padding: 20px;
+  margin-left: -30px;
 }
 
 .complete{
@@ -138,6 +143,12 @@ section {
   gap: 0px;
 }
 
+.row{
+  display: flex;
+  flex-direction: row;
+  column-gap: 38px;
+}
+
 .item{
   margin-top: -5px;
   padding-right: 8px;
@@ -156,6 +167,7 @@ section {
 
 .item4{
   margin-left: -35px;
+  margin-top: -3px;
 }
 
 .card{
@@ -168,7 +180,7 @@ section {
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
-  margin-top: 1px;
+  margin-top: -3px;
 }
 
 .item5{
@@ -178,21 +190,23 @@ section {
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
-  margin-top: 1px;
+  margin-top: -3px;
 }
 
 .item6{
   margin-left: -35px;
+  margin-top: -3px;
 }
 
 .item7{
   margin-left: -60px;
+  margin-top: -3px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
-  margin-top: 1px;
+  margin-top: -3px;
 }
 
 .item8{
@@ -264,6 +278,7 @@ p{
   border-top-right-radius: 60px;
   background-color: white;
   width: 350px;
+  padding-right: 40px;
 }
 
 .tag{
@@ -272,6 +287,7 @@ p{
 
 .intro{
   padding-top: 142px;
+  padding-left: 40px;
 }
 
 .lang{
@@ -280,7 +296,7 @@ p{
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #344563;
+  color: black;
   margin-top: 20px;
 }
 
@@ -314,6 +330,7 @@ p{
   font-size: 15px;
   line-height: 20px;
   margin-left: -30px;
+  color: #253858;
 }
 
 .others{
@@ -329,7 +346,7 @@ p{
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #344563;
+  color: black;
 }
 
 .icon{
@@ -338,10 +355,24 @@ p{
 }
 
 .part{
-  padding-bottom: 60px;
+  padding-bottom: 10px;
+  margin-left: -50px;
 }
 
 .tagline{
   padding-top: 80px;
+  padding-left: 40px;
 }
 
+.last{
+  margin-left: 40px;
+}
+
+.final{
+  background-color: white;
+  margin-bottom: -90px;
+}
+
+.social{
+  margin-left: -3px;
+}
